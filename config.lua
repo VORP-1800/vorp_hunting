@@ -10,18 +10,19 @@ Config.Linux = false          -- If they use a Linux server, then true
 Config.butcherfunction = true -- set to true if you want to use butcher functions
 ----------------------------- TRANSLATE HERE -------------------------------------
 Config.Language = {
-    NotHoldingAnimal = "You Got Nothing To Sell",
-    NotInTheButcher = "I won't buy that animal",
-    AnimalSold = "Thanks for the deal you got ",
-    SkinnableAnimalstowed = "Obtained ",
-    stow = "Stow",
-    press = "Press",
-    sell = "Sell",
-    notabutcher = "You Dont Have The Right Job",
+    NotHoldingAnimal = "No tienes nada para vender",
+    NotInTheButcher = "No compraré ese animal",
+    AnimalSold = "Gracias por el trato, recibiste ",
+    SkinnableAnimalstowed = "Obtuviste ",
+    stow = "Guardar",
+    press = "Presiona",
+    sell = "Vender",
+    notabutcher = "No tienes el trabajo adecuado",
     dollar = " $",
     join = ", ",
-    FullInventory = "Inventory is too full."
+    FullInventory = "El inventario está demasiado lleno."
 }
+
 
 -- Webhook moved to server.lua line 98 
 
